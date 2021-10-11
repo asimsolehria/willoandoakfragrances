@@ -1,418 +1,164 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<!DOCTYPE html>
+<html>
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html;" charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="UTF-8">
+	<title> Simple Shared accounts… coming your way</title>
 
-	<!--[if !mso]>
 
-<!-->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-	<!--<![endif]-->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-	<style type="text/css">
-		.ReadMsgBody {
-			width: 100%;
-		}
 
-		/* Forces Hotmail to display emails at full width */
-		.ExternalClass {
-			width: 100%;
-		}
 
-		/* Hotmail table centering fix */
-		.ExternalClass,
-		.ExternalClass p,
-		.ExternalClass span,
-		.ExternalClass font,
-		.ExternalClass td,
-		.ExternalClass div {
-			line-height: 100%;
-		}
-
-		/* Forces Hotmail to display normal line spacing */
-		.ExternalClass * {
-			line-height: 100%
-		}
-
-		p {
-			margin: 1em 0;
-		}
-
-		/* Yahoo paragraph fix */
-		table td {
-			border-collapse: collapse;
-		}
-
-		/* This resolves the Outlook 07, 10, and Gmail td padding issue fix */
-		/* This resolves the issue when iphone puts links on dates, etc. */
-		.appleLinksWhite a {
-			color: #ffffff;
-			text-decoration: none;
-		}
-
-		.appleLinksWhiteUL a {
-			color: #ffffff;
-			text-decoration: underline;
-		}
-
-		.appleLinksGray a {
-			color: #1f326f;
-			text-decoration: none;
-		}
-
-		.appleLinksGray2 a {
-			color: #707070;
-			text-decoration: none;
-		}
-
-		.appleLinksGray3 a {
-			color: #95a1bc !important;
-			text-decoration: none !important;
-		}
-
-		.appleLinksBlack a {
-			color: #1d1d1d;
-			text-decoration: none;
-		}
-
-		.appleLinksGreen a {
-			color: #1a3c34 !important;
-		}
-
-		a.mobileshow,
-		.mobilehide {
-			display: none;
-			color: #fff;
-			/* for Gmail */
-		}
-	</style>
-	<style type="text/css">
-		@media only screen and (max-width: 640px) {
-
-			html,
-			body {
-				width: 100% !important;
-				min-width: 100% !important;
-				margin: 0 auto !important;
-			}
-
-			.container {
-				width: 100% !important;
-				min-width: 100% !important;
-				margin: 0 auto !important;
-			}
-
-			.header {
-				height: 30px !important;
-				padding-top: 15px !important;
-				padding-bottom: 15px !important;
-			}
-
-			.image {
-				width: 100% !important;
-				max-width: 100% !important;
-				height: auto !important;
-			}
-
-			.drop {
-				width: 100% !important;
-				display: block !important;
-			}
-
-			.drop-center {
-				width: 100% !important;
-				display: block !important;
-				text-align: center !important;
-			}
-
-			.pad15 {
-				padding-left: 15px !important;
-				padding-right: 15px !important;
-			}
-
-			.pad30 {
-				padding-left: 30px !important;
-				padding-right: 30px !important;
-			}
-
-			.noLeftRightPad {
-				padding-left: 0px !important;
-				padding-right: 0px !important;
-			}
-
-			.padBot30 {
-				padding-bottom: 30px !important;
-			}
-
-			.padBot10 {
-				padding-bottom: 10px !important;
-			}
-
-			.headlineFont {
-				font-size: 24px !important;
-			}
-
-			.image270 {
-				width: 100% !important;
-				height: auto !important;
-			}
-		}
-	</style>
-	<style type="text/css">
-		@media only screen and (max-width: 450px) {
-
-			/* global 450 wide styles */
-			body {
-				width: 100% !important;
-				min-width: 100% !important;
-				margin: 0 auto !important;
-			}
-
-			.body {
-				min-width: 100vw;
-			}
-
-			.mobile-only {
-				display: block !important;
-				max-height: none !important;
-			}
-
-			.mobile-break {
-				display: inline-block !important;
-				max-height: none !important;
-			}
-
-			.mobile-hidden {
-				display: none !important;
-			}
-
-			.pad15 {
-				padding-left: 15px !important;
-				padding-right: 15px !important;
-			}
-
-			.padTopBot15 {
-				padding-top: 15px !important;
-				padding-bottom: 15px !important;
-			}
-
-			.padTopBot20 {
-				padding-top: 20px !important;
-				padding-bottom: 20px !important;
-			}
-
-			.padBot20 {
-				padding-bottom: 20px !important;
-			}
-
-			.noLeftRightPad {
-				padding-left: 0px !important;
-				padding-right: 0px !important;
-			}
-
-			.padBot30 {
-				padding-bottom: 30px !important;
-			}
-
-			.pad30 {
-				padding-left: 30px !important;
-				padding-right: 30px !important;
-			}
-
-			.headlineFont {
-				font-size: 26px !important;
-				line-height: 136% !important;
-				font-weight: 600 !important;
-			}
-
-			.copyFont {
-				font-size: 12px !important;
-				line-height: 183% !important;
-			}
-
-			.subHeadlineFont {
-				font-size: 16px !important;
-				line-height: 175% !important;
-			}
-
-			u+.body .gwfw {
-				width: 100% !important;
-				width: 100vw !important;
-			}
-
-			.headerImage {
-				width: 100px !important;
-			}
-
-			.image270 {
-				width: 100% !important;
-				height: auto !important;
-			}
-
-			#MessageViewBody,
-			#MessageWebViewDiv {
-				width: 100% !important;
-			}
-		}
-	</style>
-
-	<!--[if gte mso 9]> <style> /* Target Outlook 2007 and 2010 */ html, body { font-family: Arial, sans-serif !important; } table { font-family: Arial, sans-serif !important; } td { font-family: Arial, sans-serif !important; } </style> <![endif]-->
-
-	<!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml><![endif]-->
-	<title>Your Disney Account
-	</title>
-	<meta type="template-name" value="DisneyPlus_welcome.USER.en-US">
 </head>
 
-<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="width:100% !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;background-color:#ffffff;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;" class="body">
-	<img src="https://click.mail.disneyplus.com/open.aspx?ffcb10-ff591d747c-ff2c11777761-fe4415707564067f751773-ff951579-fef616777c6403-ffce15&d=100012" width="1" height="1">
-	<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="gwfw">
-		<tr>
-			<td align="center">
-				<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="container" style="font-family: Arial, Helvetica, sans-serif; width: 640px;">
-					<tr>
-						<td>
-							<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+<body>
+
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width">
+		<style type="text/css">
+			@media(min-width:550px) {
+				.hero-image {
+					top: 0 !important
+				}
+
+				table[class="body"] {
+					padding-bottom: 50px !important;
+					padding-top: 50px !important
+				}
+
+				.email-logo-masthead {
+					display: inline !important;
+					height: 35px !important;
+					margin-left: 0 !important;
+					margin-right: 0 !important
+				}
+
+				.email-content {
+					border-left: 1px solid #dadfe1 !important;
+					border-right: 1px solid #dadfe1 !important
+				}
+
+				.email-content-block {
+					padding-left: 50px !important;
+					padding-right: 50px !important
+				}
+			}
+
+			.email-social-bar-copy p,
+			.email-social-bar-copy a,
+			.email-social-bar-copy .ios-no-link {
+				color: white !important;
+				text-decoration: none !important
+			}
+		</style>
+	</head>
+
+	<body style="background-color: #f2f2f2; height: 100%; margin: 0; padding: 0;"><span style="color:transparent;visibility:hidden;display:none;opacity:0;height:0;width:0;font-size:0;">On the other side of your move from The Bancorp Bank to BBVA Compass: Simple Shared accounts.</span><img src="http://links.simple.com/e/open?_k=8dbbfde46a4d438d83c4d5d3d8484ea4&amp;_u=&amp;_n=93795&amp;_t=138868&amp;_m=bbdd72b8d2a8478f9580b7ec231c3edf" style="border:0;width:1px;height:1px;" width="1" height="1">
+		<table align="center" border="0" cellpadding="0" cellspacing="0" class="body" style="background-color:#f2f2f2; height:100%; padding-bottom:25px; padding-left:0; padding-right:0; padding-top:25px; width:100%">
+			<tbody>
+				<tr>
+					<td>
+						<table align="center" border="0" cellpadding="0" cellspacing="0">
+							<tbody>
 								<tr>
-									<td align="center" valign="top">
-										<table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
-											<tr>
-												<td style="border:0px;">
-													<table role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%">
-														<tr>
-															<td align="left" valign="top">
-																<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-																	<tr>
-																		<td width="100%">
-																			<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="width: 640px;" class="container">
+									<td width="550">
+										<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+											<tbody>
+												<tr>
+													<td>
+														<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+															<tbody>
+																<tr>
+																	<td class="ImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 10px !important; text-align: center; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+
+																		<a href="https://themes.email/" title="" class="" target="_blank" style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; color: #7d766f; font-weight: normal; text-decoration: underline;">
+																			<img align="center" alt="" src="https://willowandoakfragrances.com.au/wp-content/uploads/2021/10/logo-black.png" width="200" style="max-width: 1200px; padding-bottom: 0; display: inline !important; vertical-align: bottom; border: 0; height: auto; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; margin: 0px!important; font-size: 14px; font-weight: bold; text-transform: capitalize; margin-right: 10px;" class="Image"></a>
+
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</td>
+												</tr>
+												<tr>
+													<td><img class="hero-image" src="https://willowandoakfragrances.com.au/wp-content/uploads/2021/10/email-header2.jpeg"></td>
+												</tr>
+												<tr>
+													<td class="email-content" style="background-color: #FFFFFF;">
+														<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+															<tbody>
+																<tr>
+																	<td class="email-content-block copy" style="font-family: &quot;Avenir Next&quot;, &quot;Avenir&quot;, &quot;Helvetica&quot;, sans-serif !important; padding-left: 25px; padding-right: 25px; padding-top: 50px;">
+																		<h2 style="margin: 0 0 0.5rem 0; line-height: 1.25; font-family: &quot;Avenir Next&quot;, &quot;Avenir&quot;, &quot;Helvetica&quot;, sans-serif !important; color: #333e48; font-size: 2rem; font-weight: 500; font-style: normal;">Good news today
+																			<!---->, Smiles Davis!
+																			<!---->
+																		</h2>
+																		<p style="margin-bottom: 15px; font-family: &quot;Avenir Next&quot;, &quot;Avenir&quot;, &quot;Helvetica&quot;, sans-serif !important; font-weight: 400; font-size: 16px; line-height: 1.5;">It’s finally time! Say, “hello!” to Simple Shared accounts. But wait—you’re right in the middle of moving your account from our current partner bank, The Bancorp Bank, to our new one, BBVA Compass.</p>
+																		<p style="margin-bottom: 15px; font-family: &quot;Avenir Next&quot;, &quot;Avenir&quot;, &quot;Helvetica&quot;, sans-serif !important; font-weight: 400; font-size: 16px; line-height: 1.5;">Don’t fret, a sparkly, new Simple Shared account—should you want one—is waiting for you on the other side. Hooray! 🎉</p>
+																		<p style="margin-bottom: 15px; font-family: &quot;Avenir Next&quot;, &quot;Avenir&quot;, &quot;Helvetica&quot;, sans-serif !important; font-weight: 400; font-size: 16px; line-height: 1.5;">You can learn more about Simple Shared <a href="http://links.simple.com/u/09485e3d3cb444a5b653162b474c9784?_e=&amp;_m=bbdd72b8d2a8478f9580b7ec231c3edf&amp;ajs_event=mclk&amp;ajs_prop_identifier=7217408a-1bfb-48af-ae06-41eda4f0d7cc&amp;utm_medium=email&amp;utm_source=iterable&amp;utm_campaign=shared_accounts&amp;utm_content=announce-migrators" style="-moz-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); -o-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); -webkit-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); color: #0d97ff; font-family: 'Avenir Next', 'Avenir', 'Helvetica', sans-serif !important;" target="_blank">here</a>.</p>
+																		<p style="margin-bottom: 15px; font-family: &quot;Avenir Next&quot;, &quot;Avenir&quot;, &quot;Helvetica&quot;, sans-serif !important; font-weight: 400; font-size: 16px; line-height: 1.5;">Thanks for hanging in there.</p>
+																		<p class="signout light-type" style="margin-bottom: 15px; font-family: &quot;Avenir Next&quot;, &quot;Avenir&quot;, &quot;Helvetica&quot;, sans-serif !important; font-weight: 400; font-size: 16px; line-height: 1.5; color: #788991;">— The Team at Simple</p>
+																		<div class="padding-break" style="font-family: &quot;Avenir Next&quot;, &quot;Avenir&quot;, &quot;Helvetica&quot;, sans-serif !important; margin-top: 50px;"></div>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<table align="center" border="0" cellpadding="0" cellspacing="0" class="email-social-bar" style="background:#0d97ff; padding-bottom:25px; padding-left:50px; padding-right:50px; padding-top:25px; width:100%">
+															<tbody>
+																<tr>
+																	<td class="email-social-bar-copy copy" style="font-family: &quot;Avenir Next&quot;, &quot;Avenir&quot;, &quot;Helvetica&quot;, sans-serif !important;">
+																		<p class="ios-no-link" style="margin-bottom: 15px; font-family: &quot; AvenirNext&quot;,&quot;Avenir&quot;,&quot;Helvetica&quot;,sans-serif!important;font-weight: 400; font-size: 11px; line-height: 1.5; color: white !important; text-decoration: none !important;">Simple Finance Technology Corp.<br style="font-family: &quot;Avenir Next&quot;, &quot;Avenir&quot;, &quot;Helvetica&quot;, sans-serif !important;"> PO Box 28462<br style="font-family: &quot;Avenir Next&quot;, &quot;Avenir&quot;, &quot;Helvetica&quot;, sans-serif !important;"> Portland, OR 97228</p> <a href="http://links.simple.com/e/hostedUnsubscribe?email=&amp;campaignId=93795&amp;templateId=138868&amp;messageId=bbdd72b8d2a8478f9580b7ec231c3edf&amp;identifier=8d35a4aa1709ed0f02a4353c5f319e27" style="-moz-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); -o-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); -webkit-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); font-family: &quot; AvenirNext&quot;,&quot;Avenir&quot;,&quot;Helvetica&quot;,sans-serif!important;font-size: 11px; color: white !important; text-decoration: none !important;" target="_blank">Unsubscribe</a>
+																	</td>
+																	<td class="email-social-bar-icons">
+																		<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+																			<tbody>
 																				<tr>
-																					<td align="center">
-																						<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#07113e">
-																							<tr>
-																								<td align="left" style="padding-top: 35px; padding-bottom: 20px; padding-left: 65px;" class="pad30 padTopBot20">
-																									<img src="https://willowandoakfragrances.com.au/wp-content/uploads/2021/10/logo-1.png" alt="Disney+" width="150" style="display: block; height: auto;" border="0" class="headerImage">
-																								</td>
-																							</tr>
-																							<tr>
-																								<td align="left" style="font-family: Arial, Helvetica, sans-serif; font-size: 37px; color: #ffffff; padding-left: 65px; padding-bottom:35px;" class="pad30 headlineFont">Thank you for <br style="display:none;" class="mobile-only">creating <br class="mobile-hidden">a <br style="display:none;" class="mobile-only">Disney Account.
-																								</td>
-																							</tr>
-																							<tr>
-																								<td align="left">
-																									<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#f0f3fa">
-																										<tr>
-																											<td style="padding: 30px;" class="pad15 padTopBot15">
-																												<table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border: 1px solid #ffffff; border-radius: 10px;">
-																													<tr>
-																														<td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 500; line-height: 150%; color: #737487; padding-top: 20px; padding-bottom: 30px; padding-left: 38px; padding-right: 38px;" class="pad15">Your Disney Account can be used to log in to Disney+ on connected TV, mobile, and web. In addition to Disney+, your account provides access to other Walt Disney Company apps and websites, such as Disneyland, Walt Disney World, ESPN, Marvel, FX, and more.
-																														</td>
-																													</tr>
-																													<tr>
-																														<td style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 500; line-height: 150%; color: #737487; padding-bottom: 20px; padding-left: 38px; padding-right: 38px;" class="pad15">Creating your Disney Account is just the first step to streaming Disney+. If you have not done so already, you will need to complete your Disney+ order before you can enjoy your favorite stories.
-																														</td>
-																													</tr>
-																													<tr>
-																														<td bgcolor="#ffffff" style="padding-left:38px;padding-right:38px;padding-bottom: 20px;" class="pad15">
-																															<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
-																																<tr>
-																																	<td bgcolor="#dfdfdf" style="font-size:0%;">
-																																		<img src="https://image.mail.disneyplus.com/lib/fe4415707564067f751773/m/1/50b6aed0-e0d0-42ec-b6d9-0b67b86ca899.gif" alt="" width="1" height="1" style="display:block" border="0">
-																																	</td>
-																																</tr>
-																															</table>
-																														</td>
-																													</tr>
-																													<tr>
-																														<td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 500; line-height: 150%; color: #737487; padding-bottom: 30px; padding-left: 38px; padding-right: 38px;" class="pad15">If you received this message but did not create a Disney Account, please visit our <a href="https://help.disneyplus.com/csp?id=csp_article_content&sys_kb_id=1784fbd4db4580d03c0cf158bf9619e4" target="_blank" style="color: #737487; text-decoration: underline;">Help Center</a> for more information on how to delete this account. We are always here to help.
-																														</td>
-																													</tr>
-																												</table>
-																											</td>
-																										</tr>
-																									</table>
-																								</td>
-																							</tr>
-																							<tr>
-																								<td style="padding-left: 30px; padding-right: 30px; padding-bottom: 30px;" bgcolor="#07113e">
-																									<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#07113e">
-																										<tr>
-																											<td style="padding-top: 30px; padding-bottom: 30px;" align="center">
-																												<table style="min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
-																													<tr>
-																														<td class="stylingblock-content-wrapper camarker-inner">
-																															<table cellspacing="0" cellpadding="0" border="0" align="center">
-																																<tr>
-																																	<td>
-																																		<table cellspacing="0" cellpadding="0" border="0" align="center">
-																																			<tr>
-																																				<td class="drop-center" align="center">
-																																					<table cellspacing="0" cellpadding="0" border="0" align="center">
-																																						<tr>
-																																							<td style="padding-left: 10px; padding-right: 10px;" align="center">
-																																								<a href="" target="_blank" alias="disney"><img src="https://image.mail.disneyplus.com/lib/fe4415707564067f751773/m/1/ad332f70-9069-48ca-80db-e00cdcb45c48.png" alt="Disney" style="display: block; height: auto;" class="image270" width="522" border="0"></a>
-																																							</td>
-																																						</tr>
-																																					</table>
-																																				</td>
-																																			</tr>
-																																		</table>
-																																	</td>
-																																</tr>
-																															</table>
-																														</td>
-																													</tr>
-																												</table>
-																											</td>
-																										</tr>
-																										<tr>
-																											<td>
-																												<table style="min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
-																													<tr>
-																														<td class="stylingblock-content-wrapper camarker-inner">
-																															<table width="100%" cellspacing="0" cellpadding="0" border="0">
-																																<tr>
-																																	<td style="font-size: 11px; font-family: Arial, Helvetica, sans-serif; line-height: 145%; color: #95a1bc; padding-bottom: 20px;" align="left">This email was sent to: <a href="#" style="text-decoration:none;color: #95a1bc; cursor:none;">hello@SmilesDavis.yeah</a>. Please do not reply to this email as this address is not monitored.</td>
-																																</tr>
-																																<tr>
-																																	<td style="font-size: 11px; font-family: Arial, Helvetica, sans-serif; line-height: 145%; color: #95a1bc; padding-bottom: 20px;" align="left">&copy; 2019 Disney and its related entities. All Rights Reserved.</td>
-																																</tr>
-																																<tr>
-																																	<td style="font-size: 11px; font-family: Arial, Helvetica, sans-serif; line-height: 145%; color: #95a1bc; padding-bottom: 20px;" align="left">Disney Streaming Services, LLC, 75 Ninth Avenue 6th Floor, New York, NY 10011</td>
-																																</tr>
-																															</table>
-																														</td>
-																													</tr>
-																												</table>
-																											</td>
-																										</tr>
-																									</table>
-																								</td>
-																							</tr>
-																						</table>
+																					<td align="right">
+																						<a class="email-social-bar-social-icon" href="http://links.simple.com/u/bda4d82c06b9410da2bfe08edbebaf15?_e=&amp;_m=bbdd72b8d2a8478f9580b7ec231c3edf" style="-moz-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); -o-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); -webkit-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); color: #0d97ff; padding: 0 5px; text-decoration: none;" target="_blank"><img class="auto-width" height="15" src="https://simple.com/email-images/icons/icon-facebook.png" style="width: 6.89062px; border: 0px; height: 15px; max-width: 100% !important;"></a>
+																						<a class="email-social-bar-social-icon" href="http://links.simple.com/u/7511aeb20ac14ef38f82bdb09b6255a9?_e=&amp;_m=bbdd72b8d2a8478f9580b7ec231c3edf" style="-moz-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); -o-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); -webkit-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); color: #0d97ff; padding: 0 5px; text-decoration: none;" target="_blank"><img class="auto-width" height="15" src="https://simple.com/email-images/icons/icon-twitter.png" style="width: auto; max-width: 100% !important; border: 0; height: 15px;"></a>
+																						<a class="email-social-bar-social-icon" href="http://links.simple.com/u/826949e966164a9da7f5f5e14b3a119d?_e=&amp;_m=bbdd72b8d2a8478f9580b7ec231c3edf" style="-moz-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); -o-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); -webkit-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); color: #0d97ff; padding: 0 5px; text-decoration: none;" target="_blank"><img class="auto-width" height="15" src="https://simple.com/email-images/icons/icon-pinterest.png" style="width: auto; max-width: 100% !important; border: 0; height: 15px;"></a>
+																						<a class="email-social-bar-social-icon" href="http://links.simple.com/u/60c39461cdf04834a8b2759338148a87?_e=&amp;_m=bbdd72b8d2a8478f9580b7ec231c3edf" style="-moz-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); -o-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); -webkit-transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); transition: color 0.175s cubic-bezier(0.215, 0.61, 0.355, 1); color: #0d97ff; padding: 0 5px; text-decoration: none;" target="_blank"><img class="auto-width" height="15" src="https://simple.com/email-images/icons/icon-instagram.png" style="width: auto; max-width: 100% !important; border: 0; height: 15px;"></a>
 																					</td>
 																				</tr>
-																			</table>
-																		</td>
-																	</tr>
-																</table>
-															</td>
-														</tr>
-													</table>
-												</td>
-											</tr>
+																			</tbody>
+																		</table>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+											<tbody>
+												<tr>
+													<td align="center" class="email-disclaimer copy" style="font-family: &quot;Avenir Next&quot;, &quot;Avenir&quot;, &quot;Helvetica&quot;, sans-serif !important; padding-left: 50px; padding-right: 50px; padding-top: 15px; padding-bottom: 15px;">
+														<p style="margin-bottom: 15px; font-family: &quot;Avenir Next&quot;, &quot;Avenir&quot;, &quot;Helvetica&quot;, sans-serif !important; font-weight: 400; font-size: 11px; line-height: 1.5; color: #788991; margin-top: 0;">This email was sent to <strong style="color:#788991; font-family:avenir next,avenir,helvetica,sans-serif !important; font-size:11px; font-weight:500; margin-top:0">hello@SmilesDavis.yeah</strong>.</p>
+														<p style="margin-bottom: 15px; font-family: &quot;Avenir Next&quot;, &quot;Avenir&quot;, &quot;Helvetica&quot;, sans-serif !important; font-weight: 400; font-size: 11px; line-height: 1.5; color: #788991;">Banking services are provided by Compass Bank and The Bancorp Bank; Members FDIC. BBVA Compass is a trade name of Compass Bank. Banking services associated with the Simple Shared account are available only through Compass Bank.</p>
+														<p style="margin-bottom: 15px; font-family: &quot;Avenir Next&quot;, &quot;Avenir&quot;, &quot;Helvetica&quot;, sans-serif !important; font-weight: 400; font-size: 11px; line-height: 1.5; color: #788991;">The Simple Visa<sup style="font-family: &quot;Avenir Next&quot;, &quot;Avenir&quot;, &quot;Helvetica&quot;, sans-serif !important; font-size: 11px; color: #788991; margin-top: 0;">®</sup> Card is issued by Compass Bank&nbsp;pursuant
+															to a license from Visa U.S.A. Inc. and may be used everywhere Visa debit cards are accepted.</p>
+													</td>
+												</tr>
+											</tbody>
 										</table>
 									</td>
 								</tr>
-							</table>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-	</table>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+
+
 </body>
 
 </html>
